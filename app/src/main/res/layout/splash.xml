@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradiente_background_splash"
+    >
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/txtgatdev"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GatDev"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+        <ImageView
+            android:id="@+id/imagesplash"
+            android:src="@drawable/splash"
+            android:layout_gravity="center"
+            android:layout_width="200dp"
+            android:layout_height="200dp" />
+        <TextView
+            android:id="@+id/txtsplash"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Control Led Bluetooth"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/txtnombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Android Studio"
+            android:textColor="@color/white"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -19,7 +19,6 @@ public class MainActivity extends AppCompatActivity {
         if (keyCode == KeyEvent.KEYCODE_BACK) {
 
             new AlertDialog.Builder(this)
-                    .
                     .setIcon(R.drawable.control)
                     .setTitle("Salir")
                     .setMessage("Estás seguro?")
